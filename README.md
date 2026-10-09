@@ -17,9 +17,62 @@ A collection of custom software solutions, platform extensions, integrations, an
 
 ## Featured Projects
 
+## Integration Engineering
+
+### 01. Sage 50 Credit Synchronization Framework
+
+#### Engineering Challenge
+
+Customer credit information existed within a legacy ERP environment requiring 32-bit ODBC connectivity while eCommerce operations required access to synchronized customer credit status.
+
+#### Technical Solution
+- Developed PowerShell synchronization processes.
+- Built ODBC and Access integration layers.
+- Implemented customer credit validation logic.
+- Developed automated update and monitoring routines.
+- Created fault-tolerant synchronization workflows.
+ 
+#### Screenshots
+ 
+##### Addon Settings
+ 
+<img src="screenshots/CreditApp_AddonSettings.png">
+ 
+##### Backend Customer Management
+ 
+<img src="screenshots/CreditApp_Backend_View.png">
+ 
+##### Backend Bulk Update Interface
+ 
+<img src="screenshots/CreditApp_Backend_BulkEdit_View.png">
+ 
+##### Frontend Customer Experience
+ 
+<img src="screenshots/CreditApp_Frontend_View.png">
+
+#### Technologies Used
+- PowerShell
+- Sage 50
+- ODBC
+- Microsoft Access
+- SQL Server
+- PHP
+
+#### Technical Challenges
+- Legacy 32-bit ERP architecture.
+- Synchronization reliability.
+- Data transformation and validation.
+- Error handling and recovery.
+
+#### Results
+- Automated customer credit synchronization.
+- Reduced administrative maintenance.
+- Improved data accuracy.
+- Established reusable integration framework.
+
 ## CS-Cart Addon Engineering
 
-### 01. Customer Hierarchy Addon
+### 02. Customer Hierarchy Addon
 
 #### Engineering Challenge
 The platform did not provide a native method for creating parent-child customer relationships. The solution required secure account linking, permission enforcement, and controlled visibility of customer orders while preventing unauthorized access to data.
@@ -51,7 +104,7 @@ The platform did not provide a native method for creating parent-child customer 
 - Maintained full upgrade compatibility.
 - Established reusable access-control patterns for future development.
 
-### 02. Ship By Date Addon
+### 03. Ship By Date Addon
 
 #### Engineering Challenge
 Order fulfillment workflows required shipment scheduling functionality that was not available within the native platform. The solution needed to support backend editing, searching, filtering, reporting, and document generation.
@@ -83,7 +136,7 @@ Order fulfillment workflows required shipment scheduling functionality that was 
 - Maintained upgrade-safe implementation.
 - Created reusable order metadata framework.
 
-### 03. Automated Order Status Assignment Engine
+### 04. Automated Order Status Assignment Engine
 
 #### Engineering Challenge
 Complex fulfillment processes required order statuses to be automatically assigned based on shipping methods and configurable business rules. Native order processing workflows lacked this flexibility.
@@ -113,7 +166,7 @@ Complex fulfillment processes required order statuses to be automatically assign
 - Increased workflow consistency.
 - Established reusable rule-engine architecture.
 
-### 04. Shipping Surcharge Automation Engine
+### 05. Shipping Surcharge Automation Engine
 
 #### Engineering Challenge
 Shipping costs required dynamic surcharge calculations with custom tax handling and storefront-specific exclusions not supported by native platform functionality.
@@ -144,41 +197,6 @@ Shipping costs required dynamic surcharge calculations with custom tax handling 
 - Improved pricing transparency.
 - Reduced manual adjustments.
 - Maintained seamless checkout experiences.
-
-## Integration Engineering
-
-### 05. Sage 50 Credit Synchronization Framework
-
-#### Engineering Challenge
-
-Customer credit information existed within a legacy ERP environment requiring 32-bit ODBC connectivity while eCommerce operations required access to synchronized customer credit status.
-
-#### Technical Solution
-- Developed PowerShell synchronization processes.
-- Built ODBC and Access integration layers.
-- Implemented customer credit validation logic.
-- Developed automated update and monitoring routines.
-- Created fault-tolerant synchronization workflows.
-
-#### Technologies Used
-- PowerShell
-- Sage 50
-- ODBC
-- Microsoft Access
-- SQL Server
-- PHP
-
-#### Technical Challenges
-- Legacy 32-bit ERP architecture.
-- Synchronization reliability.
-- Data transformation and validation.
-- Error handling and recovery.
-
-#### Results
-- Automated customer credit synchronization.
-- Reduced administrative maintenance.
-- Improved data accuracy.
-- Established reusable integration framework.
 
 ## Workflow Automation Engineering
 
