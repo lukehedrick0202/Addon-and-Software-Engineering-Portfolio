@@ -31,25 +31,7 @@ Customer credit information existed within a legacy ERP environment requiring 32
 - Implemented customer credit validation logic.
 - Developed automated update and monitoring routines.
 - Created fault-tolerant synchronization workflows.
- 
-#### Screenshots
- 
-##### Addon Settings
- 
-<img src="screenshots/CreditApp_AddonSettings.png">
- 
-##### Backend Customer Management
- 
-<img src="screenshots/CreditApp_Backend_View.png">
- 
-##### Backend Bulk Update Interface
- 
-<img src="screenshots/CreditApp_Backend_BulkEdit_View.png">
- 
-##### Frontend Customer Experience
- 
-<img src="screenshots/CreditApp_Frontend_View.png">
-
+  
 #### Technologies Used
 - PowerShell
 - Sage 50
@@ -57,6 +39,43 @@ Customer credit information existed within a legacy ERP environment requiring 32
 - Microsoft Access
 - SQL Server
 - PHP
+  
+#### Screenshots
+<table>
+<tr>
+<td align="center">
+<b>Addon Settingsn</b><br><br>
+<img src="screenshots/CreditApp_AddonSettings.png">
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td align="center">
+<b>Backend Customer Management</b><br><br>
+<img src="screenshots/CreditApp_Backend_View.png">
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td align="center">
+<b>Backend Bulk Update Interface</b><br><br>
+<img src="screenshots/CreditApp_Backend_BulkEdit_View.png">
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td align="center">
+<b>Frontend Customer Experience</b><br><br>
+<img src="screenshots/CreditApp_Frontend_View.png">
+</td>
+</tr>
+</table>
 
 #### Technical Challenges
 - Legacy 32-bit ERP architecture.
