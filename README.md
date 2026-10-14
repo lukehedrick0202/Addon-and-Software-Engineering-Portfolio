@@ -1,9 +1,7 @@
 # Addon & Software Engineering Portfolio
-
 A collection of custom software solutions, platform extensions, integrations, and application components developed to extend platform capabilities, automate workflows, and solve complex technical challenges while maintaining scalability, security, and long-term maintainability.
 
 ## Core Responsibilities
-
 - Software Architecture
 - Application Development
 - Addon Development
@@ -14,6 +12,18 @@ A collection of custom software solutions, platform extensions, integrations, an
 - Legacy System Modernization
 - Platform Extensibility
 - Technical Documentation
+
+## Notable Solutions Delivered
+- Designed and developed custom CS-Cart addons utilizing hook-based architecture while maintaining full upgrade compatibility.
+- Engineered customer hierarchy and permission management systems supporting secure parent-child account relationships.
+- Built configurable rules engines for automated order status assignment, fulfillment routing, and business process automation.
+- Developed custom order management extensions supporting scheduling, exception handling, validation, and workflow enhancements.
+- Created shipment scheduling frameworks with integrated search, filtering, reporting, and document generation capabilities.
+- Implemented automated customer credit synchronization between legacy ERP systems and modern eCommerce platforms.
+- Engineered shipping surcharge calculation engines capable of supporting complex pricing, tax, and exclusion requirements.
+- Developed reusable API, database, and synchronization frameworks for integrating CS-Cart, Sage 50, SQL Server, and third-party systems.
+- Created backend administrative tooling that allows business users to manage system behavior without requiring code changes.
+- Built fault-tolerant automation and integration processes emphasizing maintainability, observability, error handling, and long-term scalability.
 
 ## Featured Projects
 
